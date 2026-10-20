@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ponte en contacto con el equipo del proyecto CanLe.">
+  <title>CanLe | Contáctanos</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="CanLe, página principal">Can<span>Le</span></a>
+    <nav class="nav-links" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="inicio.html">Impacto del azúcar</a><a href="informacion.html">Información</a><a href="consejos.html">Consejos</a><a href="proyecto.html">Proyecto</a><a href="contactanos.html" aria-current="page">Contáctanos</a></nav>
+  </div>
+</header>
+<main><section class="page-banner"><span class="eyebrow eyebrow-light">Estamos aquí para escucharte</span><h1>Contáctanos</h1><p>¿Tienes una pregunta o una sugerencia sobre el proyecto CanLe? Puedes escribirla en el formulario de demostración.</p></section>
+<section class="section contact-layout"><div class="contact-copy"><span class="eyebrow">Hablemos</span><h2>Tu opinión es importante</h2><p>CanLe es una iniciativa educativa que busca compartir información y abrir conversaciones sobre el consumo de azúcar.</p><div class="contact-note"><strong>Antes de enviar</strong><p>Este formulario demuestra cómo se vería la interacción en la página, pero aún no está conectado a un correo o servidor. Los datos no se enviarán ni se almacenarán.</p></div></div><form id="contact-form" class="contact-form"><label for="nombre">Nombre</label><input id="nombre" name="nombre" autocomplete="name" required maxlength="80" placeholder="Escribe tu nombre"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="120" placeholder="nombre@ejemplo.com"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required maxlength="1000" placeholder="Escribe tu pregunta o sugerencia"></textarea><button class="button button-primary" type="submit">Probar formulario</button><p id="form-status" class="form-status" aria-live="polite"></p></form></section>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function (event) {
+  event.preventDefault();
+  document.getElementById('form-status').textContent = 'Validación completada. Este formulario es una demostración: no se envió ningún mensaje.';
+  this.reset();
+});
+</script></main>
+<footer class="site-footer"><div class="footer-inner"><strong>CanLe</strong><p>Información y orientación para reflexionar sobre nuestros hábitos de consumo de azúcar.</p><a href="index.html">Volver al inicio ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+CANLE — SITIO WEB ORGANIZADO
+============================
+
+CONTENIDO
+- index.html: página principal.
+- inicio.html: sección sobre el impacto del azúcar.
+- informacion.html: artículo informativo sobre el azúcar.
+- consejos.html: consejos, mitos y reflexiones.
+- proyecto.html: descripción del proyecto CanLe y la mascota mencionada en el material original.
+- contactanos.html: página de contacto con formulario demostrativo.
+- styles.css: estilos compartidos y diseño adaptable a móviles.
+- assets/: las tres imágenes proporcionadas, organizadas con nombres sencillos.
+
+CÓMO ABRIR
+1. Descarga y descomprime el archivo ZIP.
+2. Abre la carpeta CanLe_Web.
+3. Haz doble clic en index.html para abrir el sitio en tu navegador.
+4. Usa el menú de navegación para recorrer las secciones.
+
+IMPORTANTE
+- El formulario de contacto solo demuestra la interacción en el navegador. No envía, guarda ni transmite mensajes porque no se proporcionó un servicio o correo de destino.
+- Entre los archivos recibidos no estaba la imagen de la mascota Timiyanna; por eso no se agregó una imagen inventada ni se deja un enlace roto.
+- Se mantuvo el contenido informativo original en lo esencial y se reorganizó su presentación. Las afirmaciones de salud no fueron verificadas de manera independiente; contrástalas con fuentes sanitarias oficiales antes de usar el sitio como material definitivo.
